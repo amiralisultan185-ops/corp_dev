@@ -1,4 +1,6 @@
 package kz.study.appointment;
+import kz.study.appointment.domain.AppointmentPolicy;
+import kz.study.appointment.domain.AppointmentStatus;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

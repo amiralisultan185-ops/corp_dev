@@ -1,4 +1,5 @@
 package kz.study.appointment;
+import kz.study.appointment.domain.AppointmentId;
 
 import org.junit.jupiter.api.Test;
 

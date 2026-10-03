@@ -1,4 +1,4 @@
-package kz.study.appointment;
+package kz.study.appointment.domain;
 
 public sealed interface AppointmentStatus permits AppointmentStatus.Requested, AppointmentStatus.Confirmed, AppointmentStatus.Completed {
     record Requested() implements AppointmentStatus{}

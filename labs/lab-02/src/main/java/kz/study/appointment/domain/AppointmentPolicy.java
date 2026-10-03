@@ -1,4 +1,4 @@
-package kz.study.appointment;
+package kz.study.appointment.domain;
 
 public class AppointmentPolicy {
     public AppointmentStatus move(AppointmentStatus from, AppointmentStatus to){

@@ -10,6 +10,7 @@ their Maven projects.
 |-----|-------|---------------|
 | [lab-01](labs/lab-01) | Appointment statuses in Java 21 | `cd labs/lab-01 && mvn -q test` |
 | [lab-02](labs/lab-02) | Join Spring Boot to the appointment product | `cd labs/lab-02 && mvn -q verify` |
+| [lab-03](labs/lab-03) | Tests, PostgreSQL, JDBC, and transactions | Start PostgreSQL, then `cd labs/lab-03 && mvn -q verify` |
 
 ## Structure
 
@@ -17,4 +18,7 @@ their Maven projects.
   transition policy, and tests.
 - `labs/lab-02` - second lab: Spring Boot starts the same appointment
   product, while domain rules stay plain Java.
-- Future labs should be added as `labs/lab-03`, `labs/lab-04`, and so on.
+- `labs/lab-03` - third lab: mocked notification port, hand-written SQL,
+  JDBC persistence, and transaction tests against PostgreSQL.
+  See its README for database setup and `DEFENSE-RU.md` for defense notes.
+- Future labs should be added as `labs/lab-04`, `labs/lab-05`, and so on.
