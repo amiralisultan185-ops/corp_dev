@@ -1,4 +1,4 @@
-package kz.study.appointment;
+package kz.study.appointment.domain;
 
 public record AppointmentId(String value) {
     public AppointmentId {
