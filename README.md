@@ -11,6 +11,7 @@ their Maven projects.
 | [lab-01](labs/lab-01) | Appointment statuses in Java 21 | `cd labs/lab-01 && mvn -q test` |
 | [lab-02](labs/lab-02) | Join Spring Boot to the appointment product | `cd labs/lab-02 && mvn -q verify` |
 | [lab-03](labs/lab-03) | Tests, PostgreSQL, JDBC, and transactions | Start PostgreSQL, then `cd labs/lab-03 && mvn -q verify` |
+| [midterm](labs/midterm) | Flyway migrations and Hibernate ORM | Start PostgreSQL, then `cd labs/midterm && mvn verify` |
 
 ## Structure
 

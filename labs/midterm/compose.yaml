@@ -1,0 +1,19 @@
+services:
+  postgres:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: css
+      POSTGRES_USER: css
+      POSTGRES_PASSWORD: css
+    ports:
+      - "127.0.0.1:55432:5432"
+    volumes:
+      - appointment-postgres:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U css -d css"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+
+volumes:
+  appointment-postgres:

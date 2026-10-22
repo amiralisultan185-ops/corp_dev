@@ -1,0 +1,3 @@
+/.local-postgres/
+/.local-postgres.log
+/.pg-password.tmp
